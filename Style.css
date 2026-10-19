@@ -1,0 +1,113 @@
+
+#HomePage
+ {
+    background-color: rgb(244, 180, 63);
+ }
+
+/* donr forget to fix logo sizing- try diffrent flex */
+
+ #ShopPage
+ {
+    background-color: rgb(25, 156, 112);
+ }
+
+ #FormPage
+ {
+    background-color: rgb(177, 62, 177);
+ }
+
+#PageLinks
+ {
+    justify-self: center;
+}
+
+header a
+ {
+    border-style: solid;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+   
+
+#BannerImg img
+ {
+    justify-self: auto;
+    width: 100%;
+    height: 300px;
+}
+
+
+#ShopImg img
+{
+    padding-left: 40%;
+    justify-self:auto;
+    width: 40%;
+    height: 250px;
+    display: inline-block;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 10px;
+    border-radius: 12px;
+    /* display: flex; */
+}
+/* cant seem to get the images to line up, will try centering page instead  */
+/* uuuuuugggggggggggggggggghhhhhhhhhhhhhhhhhhhhh */
+/* fixed logo but images still wont budge, will leave it as is an add hover event */
+#LogoImg img
+{
+        justify-self: center;
+        height: 150px;
+        width: 20%;
+        padding-left: 40%;
+}
+
+/* shop css */
+
+#title1
+{
+    /* display: flex; */
+    text-align: center;
+    /* text-size-adjust: 25px; */
+    font-size: xx-large;
+}
+
+#text1
+{
+    text-align: center;
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.item {
+    display: inline-block;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.sectionHeader {
+    text-align: center; 
+}
+.h3 {
+    text-align: center;
+}
+
+/* boxes alight well in full page and window, but try and fix the small gap to right */
+
+/* update, text is no longer aligned. might have crossed an id */
+/* fixed headers, mixed up class and id notations...again */
+
+/* Form css */
+
+#formSet
+{
+
+    /* justify-self: center; */
+    display: inline-block;
+    padding-left: 40%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
